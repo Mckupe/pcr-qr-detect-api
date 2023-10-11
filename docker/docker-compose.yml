@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  pcr-qr-detect:
+    build: 
+      dockerfile: ./dockerfile
+    image: pcr-people-detect:0.0.1-cpu
+    container_name: pcr-people-detect-cpu
+    logging:
+      driver: none
