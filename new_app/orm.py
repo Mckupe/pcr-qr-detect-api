@@ -126,7 +126,7 @@ cube_control_camera = Table(
     "cube_control_camera",
     metadata,
     Column("camera_id", ForeignKey("camera.id")),
-    Column("start_qr_read_id", ForeignKey("start_qr_read.id")),
+    Column("start_cube_control_id", ForeignKey("start_cube_control.id")),
 )
 
 def start_mappers():

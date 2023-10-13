@@ -119,6 +119,7 @@ class AbstractRepository(abc.ABC):
     def getCubeControlCamera(self, reference) -> model.CubeControlCamera:
         raise NotImplementedError
     
+    
 class SqlAlchemyRepository(AbstractRepository):
     def __init__(self, session):
         self.session = session

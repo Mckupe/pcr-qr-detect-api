@@ -20,7 +20,7 @@ class Frame:
     def __init__(self, path_frame: str, camera_id: Camera):
         self.path_frame = path_frame
         self.camera_id = camera_id.id
-
+st
 class Detect:
     def __init__(self, left: float, right: float, top: float, bottom: float, label: str, conf: str, frame_id: Frame):
         self.left = left
